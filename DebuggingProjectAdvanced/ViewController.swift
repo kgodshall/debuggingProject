@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DebuggingProjectAdvanced
 //
-//  Created by Thinkful on 12/12/2014.
-//  Copyright (c) 2014 Thinkful. All rights reserved.
+//  Created by Kira Godshall on 11/22/2015.
+//  Copyright (c) 2015 Kira Godshall. All rights reserved.
 //
 
 import UIKit
@@ -61,7 +61,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     //MARK: IBActions
-    @IBAction func GuessMade(sender: AnyObject) {
+    @IBAction func makeGuess(sender: AnyObject) {
         guessTextField.resignFirstResponder()
         checkGuess()
     }
